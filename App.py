@@ -7,7 +7,7 @@ import seaborn as sns
 from pycaret.regression import load_model, predict_model
 
 model = load_model('ml(SC)_airbnb')
-st.title("Sistema de prediccion de precios Upgrade-Hub")
+st.title("Sistema de prediccion de precios en Santiago de Chile")
 
 neighbourhood = st.selectbox('Barrio', options=['Providencia', 'Lo Barnechea', 'Recoleta', 'Santiago',
        'La Florida', 'Las Condes', 'La Reina', 'Ñuñoa', 'Independencia',
